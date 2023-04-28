@@ -4,34 +4,34 @@ export default function Contactus() {
   return (
     <>
       <section className="text-gray-800 body-font relative">
-        <div class="flex flex-wrap -m-2 w-full pt-10 px-5">
-          <div class="p-2 lg:w-1/3 md:w-1/2">
-            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
+        <div className="flex flex-wrap -m-2 w-full pt-10 px-5">
+          <div className="p-2 lg:w-1/3 md:w-1/2">
+            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
               <img
                 alt="team"
-                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                 src={require("./contact.png")}
               />
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">
+              <div className="flex-grow">
+                <h2 className="text-gray-900 title-font font-medium">
                   Email Address
                 </h2>
-                <p class="text-gray-800">bluocean001@gmail.com</p>
+                <p className="text-gray-800">bluocean001@gmail.com</p>
               </div>
             </div>
           </div>
-          <div class="p-2 lg:w-1/3 md:w-1/2">
-            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
+          <div className="p-2 lg:w-1/3 md:w-1/2">
+            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
               <img
                 alt="team"
-                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                 src={require("./Location.png")}
               />
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">
+              <div className="flex-grow">
+                <h2 className="text-gray-900 title-font font-medium">
                   Our Address
                 </h2>
-                <p class="text-gray-800">
+                <p className="text-gray-800">
                   Unit No.578C, Floor No 5,
                   <br />M G Magar, Sainath Industrial Complex,
                   <br />
@@ -40,16 +40,16 @@ export default function Contactus() {
               </div>
             </div>
           </div>
-          <div class="p-2 lg:w-1/3 md:w-1/2">
-            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
+          <div className="p-2 lg:w-1/3 md:w-1/2">
+            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
               <img
                 alt="team"
-                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                 src={require("./timing.png")}
               />
-              <div class="flex-grow">
-                <h2 class="text-gray-900 title-font font-medium">Hours</h2>
-                <p class="text-gray-800">
+              <div className="flex-grow">
+                <h2 className="text-gray-900 title-font font-medium">Hours</h2>
+                <p className="text-gray-800">
                   Mon – Sat: 9am – 6pm
                   <br />
                   Sun: closed
@@ -205,15 +205,14 @@ export default function Contactus() {
             </div>
           </div>
         </div>
-        <div class="bg-gray-300">
+        <div className="bg-gray-300">
           <iframe
             title="Adress"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.3656760211425!2d72.855805!3d19.3099322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b134742ae5d9%3A0xe38ea07d339ee004!2sSAINATH%20INDUSTRIAL%20M.K.B!5e0!3m2!1sen!2sin!4v1682676473692!5m2!1sen!2sin"
             width="100%"
             height="450"
-            allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </section>
