@@ -6,7 +6,7 @@ import Footer from '../Components/Footer'
 
 const ContactPage = () => {
     useEffect(()=>{
-        document.title = "Amazing Page";
+        document.title = "Blu Ocean - Contact";
     },[])
   return (
     <>

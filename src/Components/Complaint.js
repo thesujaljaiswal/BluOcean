@@ -5,7 +5,7 @@ export default function Complaint() {
     <>
       <div className="flex flex-row place-content-evenly pb-4 flex-wrap">
         <div className="flex items-center ">
-          <img className="pt-10 w-full rounded-lg " src={require("./complaint.jpg")} />
+          <img className="pt-10 w-full rounded-lg " src={require("./complaint.jpg")} alt="" />
         </div>
         <section className="text-gray-600 body-font relative">
           <div className="container px-5 py-8 mx-auto">

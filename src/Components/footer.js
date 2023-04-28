@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -7,8 +8,8 @@ export default function Footer() {
       <footer className="text-gray-600 body-font bg-gray-800 space-y-4">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
             >
               <img
@@ -16,7 +17,7 @@ export default function Footer() {
                 src={require("./blu ocean logo.png")}
                 alt="Logos"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="xl:w-1/3 md:w-1/2 pr-4 pl-4 pb-4">
@@ -56,52 +57,52 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10 space-y-4">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="font-bold text-gray-50 hover:text-blue-600"
                   >
                     &gt; Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/applynow"
                     className="font-bold text-gray-50 hover:text-blue-600"
                   >
                     &gt; Apply Now
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/aboutus"
                     className="font-bold text-gray-50 hover:text-blue-600"
                   >
                     &gt; About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/contactus"
                     className="font-bold text-gray-50 hover:text-blue-600"
                   >
                     &gt; Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/complaint"
                     className="font-bold text-gray-50 hover:text-blue-600"
                   >
                     &gt; Complaint
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/refund"
                     className="font-bold text-gray-50 hover:text-blue-600"
                   >
                     &gt; Refund
-                  </a>
+                  </Link>
                 </li>
               </nav>
             </div>
