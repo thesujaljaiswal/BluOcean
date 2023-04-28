@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -11,10 +11,10 @@ export default function Navbar() {
             <img className="nav-img-logo" src={require('./blu ocean logo.png')} alt="Logos"/>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="/" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Home</a>
+            <Link to={"/"} className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Home</Link>
             <a href="/" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Apply Now</a>
-            <a href="/" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">About Us</a>
-            <a href="/" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Contact Us</a>
+            <Link to="/about" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">About Us</Link>
+            <Link to="/contactus" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Contact Us</Link>
             <a href="/" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Complaint</a>
             <a href="/" className="mr-5 font-semibold text-gray-50 hover:text-blue-600">Refund</a>
           </nav>

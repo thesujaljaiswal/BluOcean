@@ -2,6 +2,7 @@ import React from "react";
 import './Content.css';
 
 export default function Content(props) {
+  console.log('in contact page')
   return (
     <>
       <div className="page-details-container">
