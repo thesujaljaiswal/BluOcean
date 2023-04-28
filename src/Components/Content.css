@@ -1,0 +1,8 @@
+.page-details-container{
+    background-color: rgb(124, 124, 124);
+    height: 20vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
