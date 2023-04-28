@@ -20,7 +20,7 @@ export default function footer() {
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="xl:w-1/3 md:w-1/2 pr-4 pl-4 pb-4">
-              <div className="border border-gray-200 p-6 rounded-lg bg-gray-800">
+              <div className="border border-gray-200 p-6 rounded-lg bg-gray-750">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <svg
                     fill="none"
@@ -54,7 +54,7 @@ export default function footer() {
               <h2 className="title-font font-medium text-blue-300 tracking-widest text-sm mb-3">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="list-none mb-10 space-y-4">
                 <li>
                   <a
                     href="/"
