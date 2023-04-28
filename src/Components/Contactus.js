@@ -31,7 +31,12 @@ export default function Contactus() {
                 <h2 class="text-gray-900 title-font font-medium">
                   Our Address
                 </h2>
-                <p class="text-gray-800">UI Designer</p>
+                <p class="text-gray-800">
+                  Unit No.578C, Floor No 5,
+                  <br />M G Magar, Sainath Industrial Complex,
+                  <br />
+                  Bhayandra Mumbai 401105.
+                </p>
               </div>
             </div>
           </div>
@@ -44,7 +49,11 @@ export default function Contactus() {
               />
               <div class="flex-grow">
                 <h2 class="text-gray-900 title-font font-medium">Hours</h2>
-                <p class="text-gray-800">Mon – Sat: 9am – 6pm<br/>Sun: closed</p>
+                <p class="text-gray-800">
+                  Mon – Sat: 9am – 6pm
+                  <br />
+                  Sun: closed
+                </p>
               </div>
             </div>
           </div>
