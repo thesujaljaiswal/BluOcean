@@ -9,6 +9,9 @@ import AboutusPage from "./pages/AboutusPage";
 import ApplyPage from "./pages/ApplyPage";
 import ComplaintPage from "./pages/ComplaintPage";
 import RefundPage from "./pages/RefundPage";
+import HomePage2 from "./pages/HomePage2";
+import Homepage3 from "./pages/Homepage3";
+import HomePage4 from "./pages/HomePage4";
 const routerfg = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +36,18 @@ const routerfg = createBrowserRouter([
   {
     path: "/refund",
     element: <RefundPage/>
+  },
+  {
+    path: "/home/hr-outsourcing",
+    element: <HomePage2/>
+  },
+  {
+    path: "/home/vision",
+    element: <Homepage3/>
+  },
+  {
+    path: "/home/executive-search",
+    element: <HomePage4/>
   },
 ]);
 function App() {

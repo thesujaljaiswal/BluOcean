@@ -5,20 +5,27 @@ export default function Complaint() {
     <>
       <div className="flex flex-row place-content-evenly pb-4 flex-wrap">
         <div className="flex items-center ">
-          <img className="pt-10 w-full" src={require("./complaint.jpg")} alt="" />
+          <img
+            className="pt-10 w-full"
+            src={require("./complaint.jpg")}
+            alt=""
+          />
         </div>
         <section className="text-gray-600 body-font relative">
           <div className="container px-5 py-8 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                 Register Your Complaint
-            </h1>
+              </h1>
             </div>
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label htmlFor="name" className="leading-7 text-sm text-gray-900">
+                    <label
+                      htmlFor="name"
+                      className="leading-7 text-sm text-gray-900"
+                    >
                       Name
                     </label>
                     <input
@@ -31,7 +38,10 @@ export default function Complaint() {
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label htmlFor="email" className="leading-7 text-sm text-gray-900">
+                    <label
+                      htmlFor="email"
+                      className="leading-7 text-sm text-gray-900"
+                    >
                       Email
                     </label>
                     <input
@@ -44,7 +54,10 @@ export default function Complaint() {
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label htmlFor="ph" className="leading-7 text-sm text-gray-900">
+                    <label
+                      htmlFor="ph"
+                      className="leading-7 text-sm text-gray-900"
+                    >
                       Phone Number
                     </label>
                     <input
@@ -57,7 +70,10 @@ export default function Complaint() {
                 </div>
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label htmlFor="add" className="leading-7 text-sm text-gray-900">
+                    <label
+                      htmlFor="add"
+                      className="leading-7 text-sm text-gray-900"
+                    >
                       Address
                     </label>
                     <input
@@ -77,7 +93,7 @@ export default function Complaint() {
                       Subject
                     </label>
                     <input
-                    type="text"
+                      type="text"
                       id="subject"
                       name="subject"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-10 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
@@ -93,7 +109,7 @@ export default function Complaint() {
                       Message
                     </label>
                     <input
-                    type="text"
+                      type="text"
                       id="message"
                       name="message"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-10 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
@@ -104,7 +120,7 @@ export default function Complaint() {
                   <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full h-70 place-content-center">
                     Submit
                   </button>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
