@@ -10,7 +10,7 @@ const ComplaintPage = () => {
 },[])
   return (
     <>
-      <Navbar/>
+      <Navbar home="text-gray-50 hover:text-blue-600" applynow="text-gray-50 hover:text-blue-600" aboutus="text-gray-50 hover:text-blue-600" contactus="text-gray-50 hover:text-blue-600" complaint="text-blue-600" refund="text-gray-50 hover:text-blue-600"/>
       <Content maintitle="Complaint"/>
       <Complaint/>
       <Footer/>

@@ -4,8 +4,9 @@ import Footer from '../Components/Footer'
 import Button from '../Components/Button'
 import Compbtn1 from '../Components/Compbtn1'
 import Txt from '../Components/Txt'
-// import BoxDiv from '../Components/BoxDiv'
 import ImageAndContent from '../Components/ImageAndContent'
+import Carousel from '../Components/Carousel'
+import Belowcarousel from '../Components/Belowcarousel'
 
 const HomePage = () => {
   useEffect(()=>{
@@ -13,9 +14,10 @@ const HomePage = () => {
 },[])
   return (
     <>
-      <Navbar/>
+      <Navbar home="text-blue-600" applynow="text-gray-50 hover:text-blue-600" aboutus="text-gray-50 hover:text-blue-600" contactus="text-gray-50 hover:text-blue-600" complaint="text-gray-50 hover:text-blue-600" refund="text-gray-50 hover:text-blue-600"/>
+      <Carousel/>
+      <Belowcarousel/>
       <ImageAndContent/>
-      {/* <BoxDiv/> */}
       <Txt/>
       <Button setbtn1="text-blue-700 border-blue-700" setbtn2="text-gray-800 border-gray-800" setbtn3="text-gray-800 border-gray-800" setbtn4="text-gray-800 border-gray-800"/>
       <Compbtn1/>
