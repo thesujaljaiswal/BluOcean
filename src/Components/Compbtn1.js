@@ -21,7 +21,7 @@ export default function Compbtn1() {
             <p className='text-lg pt-3'>&rarr; Here’s what they have to say about us.</p>
           </div>
           <div className='pt-6'>
-            <button className="text-blue-500 border-blue-500 border rounded-lg py-2 px-8">
+            <button className="text-blue-700 border-blue-700 border hover:bg-blue-300 rounded-lg py-2 px-8">
               Read More
             </button>
           </div>

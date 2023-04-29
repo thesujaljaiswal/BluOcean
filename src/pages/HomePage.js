@@ -4,6 +4,8 @@ import Footer from '../Components/Footer'
 import Button from '../Components/Button'
 import Compbtn1 from '../Components/Compbtn1'
 import Txt from '../Components/Txt'
+// import BoxDiv from '../Components/BoxDiv'
+import ImageAndContent from '../Components/ImageAndContent'
 
 const HomePage = () => {
   useEffect(()=>{
@@ -12,8 +14,10 @@ const HomePage = () => {
   return (
     <>
       <Navbar/>
+      <ImageAndContent/>
+      {/* <BoxDiv/> */}
       <Txt/>
-      <Button/>
+      <Button setbtn1="text-blue-700 border-blue-700" setbtn2="text-gray-800 border-gray-800" setbtn3="text-gray-800 border-gray-800" setbtn4="text-gray-800 border-gray-800"/>
       <Compbtn1/>
       <Footer/>
     </>
