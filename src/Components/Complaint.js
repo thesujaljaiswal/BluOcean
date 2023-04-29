@@ -5,7 +5,7 @@ export default function Complaint() {
     <>
       <div className="flex flex-row place-content-evenly pb-4 flex-wrap">
         <div className="flex items-center ">
-          <img className="pt-10 w-full rounded-lg " src={require("./complaint.jpg")} alt="" />
+          <img className="pt-10 w-full" src={require("./complaint.jpg")} alt="" />
         </div>
         <section className="text-gray-600 body-font relative">
           <div className="container px-5 py-8 mx-auto">
@@ -77,6 +77,7 @@ export default function Complaint() {
                       Subject
                     </label>
                     <input
+                    type="text"
                       id="subject"
                       name="subject"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-10 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
@@ -92,6 +93,7 @@ export default function Complaint() {
                       Message
                     </label>
                     <input
+                    type="text"
                       id="message"
                       name="message"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-10 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"

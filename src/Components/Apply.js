@@ -9,7 +9,7 @@ export default function Apply() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-sm">
               APPLY NOW
             </h1>
-            <h4 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-orange-500">
+            <h4 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-500">
             SHIPYARD | CRUISESHIP | CARGO VESSEL | SEAPORT & OIL RIG
             </h4>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-800">
@@ -59,7 +59,7 @@ export default function Apply() {
                     Mobile No.
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -76,7 +76,7 @@ export default function Apply() {
                   </label>
              
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -93,7 +93,7 @@ export default function Apply() {
                   </label>
          
                   <input
-                    type="email"
+                    type="number"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -110,7 +110,7 @@ export default function Apply() {
                   </label>
            
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -137,9 +137,9 @@ export default function Apply() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-gray-900 border-0 py-2 px-8 focus:outline-none hover:bg-blue-800 rounded text-lg">
-                  Submit Now
-                </button>
+              <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full h-70 place-content-center">
+                    Submit
+                  </button>
               </div>
             </div>
           </div>

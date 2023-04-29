@@ -6,7 +6,7 @@ export default function Contactus() {
       <section className="text-gray-800 body-font relative">
         <div className="flex flex-wrap -m-2 w-full pt-10 px-5">
           <div className="p-2 lg:w-1/3 md:w-1/2">
-            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
+            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-200">
               <img
                 alt="team"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -21,7 +21,7 @@ export default function Contactus() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2">
-            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
+            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-200">
               <img
                 alt="team"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -41,7 +41,7 @@ export default function Contactus() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2">
-            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-300">
+            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-indigo-200">
               <img
                 alt="team"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -110,7 +110,7 @@ export default function Contactus() {
                     Mobile no.
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -126,7 +126,7 @@ export default function Contactus() {
                     Post Here
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -142,7 +142,7 @@ export default function Contactus() {
                     Age
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -155,10 +155,10 @@ export default function Contactus() {
                     htmlFor="email"
                     className="leading-7 text-sm text-gray-800"
                   >
-                    Training
+                    Training &#91;in years&#93;
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -174,7 +174,7 @@ export default function Contactus() {
                     Experience
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -190,7 +190,7 @@ export default function Contactus() {
                     Address
                   </label>
                   <input
-                    type="email"
+                    type="text"
                     id="email"
                     name="email"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -198,9 +198,9 @@ export default function Contactus() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Submit
-                </button>
+              <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg w-full h-70 place-content-center">
+                    Submit
+                  </button>
               </div>
             </div>
           </div>
