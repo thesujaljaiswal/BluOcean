@@ -7,6 +7,7 @@ import Txt from "../Components/Txt";
 import ImageAndContent from "../Components/ImageAndContent";
 import Carousel from "../Components/Carousel";
 import Belowcarousel from "../Components/Belowcarousel";
+import Homesecond from "../Components/Homesecond";
 
 const HomePage2 = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage2 = () => {
       />
       <Carousel />
       <Belowcarousel />
+      <Homesecond/>
       <ImageAndContent />
       <Txt />
       <Button

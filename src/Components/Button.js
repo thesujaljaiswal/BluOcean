@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Button(props) {
   return (
     <>
-      <div className="flex px-20">
+      <div className="flex px-20 shrink-0 mine">
         <div className="p-2 w-1/4">
           <Link  to="/" className={`flex mx-auto ${props.setbtn1} border rounded-lg py-2 px-8 focus:outline-none rounded text-lg w-full h-70 place-content-center`}>
             Our Mission
