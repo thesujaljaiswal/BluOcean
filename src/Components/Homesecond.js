@@ -23,8 +23,8 @@ export default function Homesecond() {
             </h4>
           </div>
         </div>
-        <section className="text-gray-600 body-font ">
-          <div className="container flex flex-row justify-evenly w-full">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly xl:flex-wrap">
+          <div className="container flex justify-evenly w-full">
             <div className="lg:max-w-lg lg:w-300 md:w-5/12 w-1/4 mb-10 md:mb-0 pb-5 ">
               <img
                 className=" rounded px-10"
@@ -33,7 +33,7 @@ export default function Homesecond() {
               />
             </div>
 
-            <div className="flex flex-col justify-items-center   text-gray-600 text-lg">
+            <div className="flex flex-col justify-items-center text-gray-600 text-lg ">
               <Points
                 content1=" &#9656;Civil Engineering"
                 content2="&#9656;Mechanical Engineering"
@@ -83,7 +83,7 @@ export default function Homesecond() {
             Cruise Ship Management
           </h4>
         </div>
-        <section className="text-gray-600 body-font">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="container flex  flex-row">
             <div className="lg:max-w-lg lg:w-300 md:w-5/12 w-1/4 mb-10 md:mb-0 pb-5 ">
               <img
@@ -143,7 +143,7 @@ export default function Homesecond() {
             </div>
           </div>
         </section>
-        <section className=" flex  flex-row pt-12 text-gray-600 text-lg justify-evenly">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="flex flex-col  pl-5 text-gray-600">
             <Points
               content1=" &#9656;Gift Shop Sales Assistant"
@@ -239,7 +239,7 @@ export default function Homesecond() {
             />
           </div>
         </section>
-        <section className=" flex space-x-4 flex-row pt-20 text-gray-600 text-lg ">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="flex flex-col  pl-5 text-gray-600 ">
             <Points
               content1=" &#9656;First Officer"
@@ -293,7 +293,7 @@ export default function Homesecond() {
             Five Star Hotel Seaport
           </h4>
         </div>
-        <section className="text-gray-600 body-font">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="container flex  flex-row">
             <div className="lg:max-w-lg lg:w-300 md:w-5/12 w-1/4 mb-10 md:mb-0 pb-5 ">
               <img
@@ -345,7 +345,7 @@ export default function Homesecond() {
             </div>
           </div>
         </section>
-        <section className=" flex  flex-row pt-12 text-gray-600 text-lg justify-center">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="flex flex-col  pl-5 text-gray-600">
             <Points
               content1=" &#9656;IT Manager"
@@ -448,7 +448,7 @@ export default function Homesecond() {
             Thermal Power Plant Seaport
           </h4>
         </div>
-        <section className="text-gray-600 body-font space-x-0 flex flex-col ">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="container flex  flex-row">
             <div className="lg:max-w-lg lg:w-300 md:w-5/12 w-1/4 mb-10 md:mb-0 pb-5 ">
               <img
@@ -491,9 +491,8 @@ export default function Homesecond() {
             Loco Shed Of Seaport
           </h4>
         </div>
-        <section className="text-gray-600 body-font ">
-          <div className="container flex  flex-row">
-            <div className="lg:max-w-lg lg:w-300 md:w-5/12 w-1/4 mb-10 md:mb-0 pb-5 ">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
+            <div className="flex flex-col  pl-5">
               <img
                 className=" rounded px-10 pl-5"
                 alt="hero"
@@ -501,7 +500,7 @@ export default function Homesecond() {
               />
             </div>
 
-            <div className="flex flex-col  text-gray-600 text-lg">
+            <div className="flex flex-col  pl-5 text-gray-600">
               <Points
                 content1=" &#9656;Fitter"
                 content2="&#9656;Gas Cutter / Grinder"
@@ -513,7 +512,7 @@ export default function Homesecond() {
                 content8="&#9656;Mobile /poclain /hydra /tower"
               />
             </div>
-            <div className="flex flex-col pl-20 text-gray-600 text-lg ">
+            <div className="flex flex-col  pl-5 text-gray-600">
               <Points
                 content1=" &#9656;Sandblaster"
                 content2="&#9656;A/C Technician"
@@ -524,9 +523,8 @@ export default function Homesecond() {
                 content7="&#9656; Storekeeper"
               />
             </div>
-          </div>
         </section>
-        <section className=" flex space-x-0 flex-row pt-12 text-gray-600 text-lg justify-evenly">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="flex flex-col  pl-5 text-gray-600">
             <Points
               content1=" &#9656;Gift Shop Sales Assistant"
@@ -627,7 +625,7 @@ export default function Homesecond() {
             Oil Rig Offshore
           </h4>
         </div>
-        <section className="text-gray-600 body-font">
+        <section className="w-full flex pt-12 text-gray-600 text-lg justify-center justify-evenly flex-wrap">
           <div className="container flex  flex-row">
             <div className="lg:max-w-lg lg:w-300 md:w-5/12 w-1/4 mb-10 md:mb-0 pb-5 ">
               <img

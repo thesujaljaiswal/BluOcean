@@ -23,7 +23,7 @@ export default function Points(props) {
       <p> {props.content18}</p>
       <p> {props.content19}</p>
       <p> {props.content20}</p>
-      <button className="text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg w-40">Apply Now</button>
+      <button className="text-orange-500 border-2 border-orange-500 mt-6 py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg w-40">Apply Now</button>
     </>
   )
 }
