@@ -29,7 +29,7 @@ export default function Homesecond() {
               <img
                 className=" rounded px-10"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src={require("./shipyard.jpg")}
               />
             </div>
            
@@ -63,7 +63,7 @@ export default function Homesecond() {
               <img
                 className=" rounded px-14 pl-5"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src={require("./cruise.jpg")}
               />
             </div>
            
@@ -142,7 +142,7 @@ export default function Homesecond() {
               <img
                 className=" rounded px-10 pl-5"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src={require("./hotel.jpg")}
               />
             </div>
            
@@ -201,7 +201,7 @@ export default function Homesecond() {
               <img
                 className=" rounded px-14 pl-5"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src={require("./thermal.jpg")}
               />
             </div>
            
@@ -231,7 +231,7 @@ export default function Homesecond() {
               <img
                 className=" rounded px-10 pl-5"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src={require("./loco.jpg")}
               />
             </div>
            
@@ -288,20 +288,20 @@ export default function Homesecond() {
               <img
                 className=" rounded px-14 pl-5"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src={require("./oil.jpg")}
               />
             </div>
            
             <div className="flex flex-col  pl-10 text-gray-600 text-lg">
-              <Points content1=" &#9656;Drilling Roughneck" content2="&#9656;Offshore Mechanic" content3="&#9656;BOP" content4="&#9656;BOP Inspection" content5="&#9656;Laundry Staff" content6="&#9656;Hotel Administration" 
-              content7="&#9656;Accountant" content8="&#9656;Bellman" content9="&#9656;Computer Systems Manager/IT" content10="&#9656;Gift Shop Manager" content11="&#9656;Payroll Clerk" content12="&#9656;Software Engineer" content13="&#9656;Air Operations" content14="&#9656;Airlines Reporting Corporation (ARC)"
-              content15="&#9656;Coordinator" content16="&#9656;Pier/Airport Expediter" content17="&#9656;Seasonal Air Operations Agent" content18="&#9656;Media Relations" content19="&#9656;Reservations Sales & Service" content20="&#9656;Marketing Research Analyst"/>
+              <Points content1=" &#9656;Drilling Roughneck" content2="&#9656;Offshore Mechanic" content3="&#9656;BOP" content4="&#9656;BOP Inspection" content5="&#9656;BOP Maintenance" content6="&#9656;BOSIET" 
+              content7="&#9656;Bottom Hole" content8="&#9656;Casing" content9="&#9656;Casing Crew" content10="&#9656;Casing Floorhand" content11="&#9656;Casing Hand" content12="&#9656;Casing Operator" content13="&#9656;CDS" content14="&#9656;CDS Technician"
+              content15="&#9656;Company Man" content16="&#9656;Company Representative" content17="&#9656;Completion Consultant" content18="&#9656;Completion Supervisor" content19="&#9656;Crew Chief" content20="&#9656;Derrick" content21="&#9656;Derrick Hand" content22="&#9656;Directional Drilling Operator"/>
             </div>
-            <div className="flex flex-col pl-24 text-gray-600 text-lg">
+            <div className="flex flex-col pl-24 text-gray-600 text-lg ">
 
-            <Points content1=" &#9656;Staff Accountant" content2="&#9656;Tour Accounting" content3="&#9656;Administrative/Clerical" content4="&#9656;Administrative Assistant" content5="&#9656;Administration Manager" content6="&#9656;Customer Service" 
-              content7="&#9656;Human Resources" content8="&#9656;Seasonal Corporate Air Ticketing Agent" content9="&#9656;Marketing / PR" content10="&#9656;Account Executive" content11="&#9656;Entertainers" content12="&#9656;Production Manager" content13="&#9656;Sound and Light Technician" content14="&#9656;Able Seaman"
-              content15="&#9656;Bosun" content16="&#9656;Captain" content17="&#9656;IT Lead Developer" content18="&#9656;Manager Deployment & Itinerary Planning" content19="&#9656;Operations Administrator" content20="&#9656; Part-Time Data Entry"/>
+            <Points content1="&#9656; Oiler" content2="&#9656;Driller & asst Driller" content3="&#9656;Rigger" content4="&#9656;Roustabout" content5="&#9656;Diesel mechanic" content6="&#9656;Chemical engineer" 
+              content7="&#9656;Derrickman" content8="&#9656;Drilling engineering" content9="&#9656;Pumpman /Logger" content10="&#9656;Logger" content11="&#9656;Drilling Mechanic" content12="&#9656;Drilling Operation Safety" content13="&#9656;Drilling Operations Manager" content14="&#9656;Drilling Operations Specialist"
+              content15="&#9656;Drilling Operator" content16="&#9656;Drilling Optimization" content17="&#9656;Drilling Performance" content18="&#9656;Drilling Planning" content19="&#9656;Drilling Platform" content20="&#9656;Drilling Project Manager"/>
             </div>
             
             
@@ -309,6 +309,60 @@ export default function Homesecond() {
           <div className="flex flex-row justify-center space-x-18 pl-24 pt-20 "><button className="ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button>
         <button className="ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button></div>
         </section>
+        <section className=" flex space-x-0 flex-row pt-12 text-gray-600 text-lg justify-evenly"> 
+        <div className="flex flex-col  pl-5 text-gray-600">
+              <Points content1=" &#9656; Rig Consultant" content2="&#9656;Rig Electrician" content3="&#9656;Rig Floorhand" content4="&#9656;Rig Hand" content5="&#9656;Rig Maintenance" content6="&#9656;Rig Mechanic" 
+              content7="&#9656;Rig Moving" content8="&#9656;Rig Operations Manager" content9="&#9656;Rig Operations Superintendent" content10="&#9656;Rig Performance" content11="&#9656;Drilling Operations" content12="&#9656;Roughneck" content13="&#9656; Directional Drilling" content14="&#9656;Floorhand"
+              content15="&#9656;Drilling Fluids" content16="&#9656;Toolpusher" content17="&#9656;Drilling Supervisor" content18="&#9656;Rig Manager" content19="&#9656;Drilling Consultant" content20="&#9656;BHA"/>
+            </div>
+            <div className="flex flex-col pl-12 ">
+
+            <Points content1=" &#9656;Electrical Rig Technician" content2="&#9656;Electrical Technician" content3="&#9656;Electrician" content4="&#9656;Flexible Pipe" content5="&#9656;Fluid Supervisor" content6="&#9656;Fluids Consultant" 
+              content7="&#9656;Frac Supervisor" content8="&#9656;Fracturing" content9="&#9656;Fracturing Supervisor" content10="&#9656;Gas Completion Tools" content11="&#9656;Drilling Fluid Equipment" content12="&#9656;Drilling Fluid Operator" content13="&#9656;Drilling Fluid Supervisor" content14="&#9656;Drilling Fluids Consultant"
+              content15="&#9656;Drilling Foreman" content16="&#9656;Drilling Hand" content17="&#9656;Drilling Instrumentation" content18="&#9656;Drilling Maintenance" content19="&#9656;Drilling Manager" content20="&#9656; Drilling Materials"/>
+            </div>
+            <div className="flex flex-col  pl-12  ">
+              <Points content1=" &#9656; Wiper" content2="&#9656;Ordinary seaman" content3="&#9656;Able bodied seaman" content4="&#9656;Quality engineer" content5="&#9656; Quality assurance" content6="&#9656;Quality control" 
+              content7="&#9656;Tool Inspection" content8="&#9656;Tubing" content9="&#9656;Well Consultant" content10="&#9656;Well Head" content11="&#9656;Drilling Rig" content12="&#9656;Drilling Rig Consultant" content13="&#9656;Drilling Rig Foreman" content14="&#9656;Drilling Rig Technician"
+              content15="&#9656;Drilling Safety Consultant" content16="&#9656;Drilling Site Consultant" content17="&#9656;Drilling Software" content18="&#9656;Drilling Workover" content19="&#9656;Dynamic Pressure Management" content20="&#9656;Electrical Rig Maintenance"/>
+            </div>
+            <div className="flex flex-col  pl-12 ">
+
+            <Points content1=" &#9656;Well Operations Supervisor" content2="&#9656;Well Service Rig Manager" content3="&#9656;Well Control Consultant" content4="&#9656;Well Service Supervisor" content5="&#9656; Well Site Consultant" content6="&#9656;Well Site Supervisor" 
+              content7="&#9656;Tool Hand" content8="&#9656;Well View" content9="&#9656; Workover" content10="&#9656;Downhole Tools" content11="&#9656;Managed Pressure Drilling" content12="&#9656;Mechanic" content13="&#9656;Motorman" content14="&#9656;Mud"
+              content15="&#9656;Mud Pumps" content16="&#9656; Mwd Driller" content17="&#9656; Offshore Electrician" content18="&#9656; Offshore Instrumentation"  content19="&#9656;Drilling Superintendent" content20="&#9656;Drilling Supervisor Consultant"/>
+            </div>
+            
+         </section> 
+       <div className=" flex flex-row  pt-10 pl-8 space-x-18 justify-evenly"><button className="text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg m">Apply Now</button>
+        <button className="ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button><button className=" ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button>
+        <button className="ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button></div>
+        <section className=" flex space-x-0 flex-row pt-12 text-gray-600 text-lg justify-evenly"> 
+        <div className="flex flex-col  pl-5 text-gray-600">
+              <Points content1=" &#9656; Drilling Team Manager" content2="&#9656;Oilfield Equipment" content3="&#9656;Oilfield Mechanic" content4="&#9656;OIM" content5="&#9656;Platform Operator" content6="&#9656; Pump" 
+              content7="&#9656;Pump Down" content8="&#9656;Pump Hand" content9="&#9656;Pumps" content10="&#9656;Remedial Tools" />
+            </div>
+            <div className="flex flex-col pl-12 ">
+
+            <Points content1=" &#9656; HPHT" content2="&#9656;Hydraulic Mechanic" content3="&#9656;Hydraulic Pumps" content4="&#9656;Industrial Electrician" content5="&#9656; Instrument Control Technician" content6="&#9656;Instrument Installation" 
+              content7="&#9656;Instrument Technician" content8="&#9656;IWCF" content9="&#9656;Land Rig" content10="&#9656;Maintenance Electrician"/>
+            </div>
+            <div className="flex flex-col  pl-12  ">
+              <Points content1=" &#9656; Drawworks" content2="&#9656;Drill Pipe" content3="&#9656;Drilling Analyst" content4="&#9656;Drilling Chemicals" content5="&#9656; Drilling Coach" content6="&#9656;Drilling Company Man" 
+              content7="&#9656;Drilling Design Supervisor" content8="&#9656;Drilling Electrician" content9="&#9656;Drilling Equipment" content10="&#9656;Drilling Fluid" content11="&#9656;Tong Operator" content12="&#9656;Tool Assembly" />
+            </div>
+            <div className="flex flex-col  pl-12 ">
+
+            <Points content1=" &#9656; Rig Safety Consultant" content2="&#9656;Rig Site Supervisor" content3="&#9656;Rig Superintendent" content4="&#9656;Rig Supervisor" content5="&#9656; Rig Supervisor" content6="&#9656;Shale Shakers" 
+              content7="&#9656;Slips" content8="&#9656;Spooling" content9="&#9656; Storeman" content10="&#9656;Subsea" content11="&#9656;Directional Drilling Technician" content12="&#9656;Directional Survey" content13="&#9656; Downhole" content14="&#9656;Downhole Equipment"
+              />
+            </div>
+            
+         </section> 
+       <div className=" flex flex-row  pt-10 pl-8 space-x-18 justify-evenly"><button className="text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg m">Apply Now</button>
+        <button className="ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button><button className=" ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button>
+        <button className="ml-24 text-orange-500 border-2 border-orange-500  py-4 px-8 hover:bg-orange-500 hover:text-gray-100 rounded text-lg ">Apply Now</button></div>
+
       </section> 
     </>
   );

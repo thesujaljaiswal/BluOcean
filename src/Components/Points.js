@@ -22,7 +22,9 @@ export default function Points(props) {
       <p> {props.content17}</p><br/>
       <p> {props.content18}</p><br/>
       <p> {props.content19}</p><br/>
-      <p> {props.content20}</p>
+      <p> {props.content20}</p><br/>
+      <p> {props.content21}</p><br/>
+      <p> {props.content22}</p>
     </>
   )
 }
