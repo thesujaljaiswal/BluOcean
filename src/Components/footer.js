@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <footer className="text-gray-600 body-font bg-gray-800 space-y-4">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <div className="w-auto flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <Link
               to="/"
               className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
@@ -39,9 +39,9 @@ export default function Footer() {
                 <h2 className="text-lg text-indigo-300 font-medium title-font mb-2">
                   Contact Here
                 </h2>
-                <a href="tel:7400256640">
+                <a href="tel:7400319870">
                   <p className="leading-relaxed text-base text-gray-200">
-                    +91 74002 56640
+                    +91 74003 19870
                   </p>
                 </a>
                 <a href="mailto:bluocean001@gmail.com">
@@ -111,7 +111,7 @@ export default function Footer() {
         <div className="bg-gray-900">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2023 Blue Ocean - All Rights Reserved.
+              © 2023 Blu Ocean - All Rights Reserved.
             </p>
           </div>
         </div>
