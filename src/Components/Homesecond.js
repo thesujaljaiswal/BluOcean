@@ -16,7 +16,7 @@ export default function Homesecond() {
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-800">
               Manpower For Cruise Ship & Shipyard Maintenance South America,
               Australia, Canada Based Company Work Now In India Age Between
-              18-48 Years, Salary 30,000/- To 1,80,000
+              18-48 Years, Salary 45,000/- To 2,80,000
             </p>
             <h4 className="sm:text-3xl text-2xl font-medium title-font  text-blue-500 pt-10">
               SHIPYARD
