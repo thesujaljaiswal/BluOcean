@@ -3,7 +3,7 @@ import React from 'react'
 export default function Compbtn1() {
   return (
     <>
-     <div className="flex justify-center justify-evenly items-center p-10">
+     <div className="flex justify-center justify-evenly items-center p-10 mine">
         <div>
           <img src={require('./our-mission.png')} alt='' />
         </div>

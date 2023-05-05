@@ -3,7 +3,7 @@ import React from 'react'
 export default function Compbtn4() {
   return (
     <>
-     <div className="flex justify-center justify-evenly items-center p-10 px-10">
+     <div className="flex justify-center justify-evenly items-center p-10 px-10 mine">
         <div className='rounded-lg'>
           <img src={require('./e2.png')} alt=''  />
         </div>
